@@ -23,7 +23,7 @@ FoodSnap is a full-stack restaurant recommendation system similar to Zomato, wit
 - **File Upload**: Multer
 - **Environment Management**: dotenv
 - **Distance Calculation**: Haversine Formula
-- **Frontend**: (You can connect your React, Vue, or other frontend here)
+- **Frontend**:  React, React Router DOM, Axios, CSS Modules / Tailwind 
 
 ---
 
@@ -31,23 +31,27 @@ FoodSnap is a full-stack restaurant recommendation system similar to Zomato, wit
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/foodsnap.git
-cd foodsnap
-/models
-  └── user.model.js          # Mongoose Schema
-/uploads                     # Image uploads (temp storage)
-index.js                     # Main server file
-.env                         # Environment variables
-🙌 Acknowledgements
-Google Generative AI
+foodsnap/
+│
+├── backend/
+│   ├── models/
+│   │   └── user.model.js        # Mongoose Schema
+│   ├── uploads/                 # Image uploads (temporary storage)
+│   ├── routes/                  # API routes
+│   ├── controllers/             # Request handlers
+│   ├── index.js                 # Main server file
+│   └── .env                     # Environment variables
+│
+├── frontend/
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── Home.js
+│   │   │   ├── CuisineSearch.js
+│   │   │   └── RestaurantDetail.js
+│   │   ├── App.js
+│   │   └── index.js             # Entry point
+│   └── public/
+│
+└── README.md
 
-Multer
-
-Zomato Dataset
-
-📬 Contact
-For queries or suggestions:
-
-📧 uyyuruhimasaitej@gmail.com
 
